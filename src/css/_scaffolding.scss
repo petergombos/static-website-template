@@ -1,0 +1,36 @@
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: white;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: white;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+}
+
+.shake{
+  animation: shake .3s linear;
+}
+
+@-webkit-keyframes shake {
+   8%, 41% {
+       transform: translateX(-10px);
+   }
+   25%, 58% {
+       transform: translateX(10px);
+   }
+   75% {
+       transform: translateX(-5px);
+   }
+   92% {
+       transform: translateX(5px);
+   }
+   0%, 100% {
+       transform: translateX(0);
+   }
+}
