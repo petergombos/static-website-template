@@ -3,6 +3,10 @@
 @import "variables";
 @import "scaffolding";
 
+// Disabling background-attachment: fixed; in iOS Safari
+// @supports (-webkit-text-size-adjust:none) and (not (-ms-accelerator:true)) and (not (-moz-appearance:none)) {   background-attachment: scroll;  }
+
+
 main{
   
 }
